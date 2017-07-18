@@ -42,7 +42,7 @@ function numbersToCurrency (numbers, precision) {
 }
 
 function addThousandSeparator (integer, separator) {
-  return integer.replace(/(\d)(?=(?:\d{3})+\b)/gm, `$1${separator}`)
+  return integer.replace(/(\d)(?=(?:\d{3})+\b)/gm, '$1' + separator)
 }
 
 function currencyToIntegerAndDecimal (float) {
