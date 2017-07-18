@@ -20,7 +20,8 @@
     "money"
   ],
   "files": [
-    "dist/"
+    "dist/",
+    "src/"
   ],
   "author": "Marcos Neves <marcos.neves@gmail.com> (https://vuejs-tips.github.io/)",
   "license": "MIT",
